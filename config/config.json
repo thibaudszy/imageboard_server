@@ -1,0 +1,21 @@
+{
+  "development": {
+    "url": "postgres://plauatef:uGEx06U4DmBoKwsHPQ0HF3ITsjl5XG93@hattie.db.elephantsql.com:5432/plauatef",
+    "dialect": "postgres",
+    "operatorsAliases": "0"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
